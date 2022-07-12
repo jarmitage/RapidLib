@@ -44,6 +44,13 @@ CC="distcc-clang" CXX="distcc-clang++" cmake -DCMAKE_CXX_FLAGS="-Werror" ..
 CC="distcc-clang" CXX="distcc-clang++" cmake
 ctest
 ```
+
+## Usage
+
+```
+include "rapidLib.h"
+```
+
 - `make` parameters for RapidLib projects (see [Bela Blog](https://blog.bela.io/using-an-external-library-with-bela/)):
 
 ```
