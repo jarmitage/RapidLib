@@ -44,6 +44,7 @@ CC="distcc-clang" CXX="distcc-clang++" cmake -DCMAKE_CXX_FLAGS="-Werror" ..
 CC="distcc-clang" CXX="distcc-clang++" cmake
 ctest
 ```
+- Run `ldconfig /root/RapidLib/build` to add the binary path to the linker cache.
 
 ## Usage
 
